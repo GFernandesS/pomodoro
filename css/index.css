@@ -1,0 +1,196 @@
+
+@font-face{
+    font-family: "PinkFizz";
+    src: url(fonts/PinkFizz.ttf)format("truetype");
+}
+
+@keyframes animacaoIniciald{
+    from{
+        margin:0%;
+    }
+    to{
+       margin-left: 16%;
+    }
+}
+
+body{
+    background-attachment: fixed;
+    background-color: #d6cece;
+}
+
+div#master{
+    height: 600px;
+    max-height: 700px;
+    width: 900px;
+    max-width: 900px;
+    margin:auto;
+    border:3px solid black;
+    border-radius:30px;
+    background-color: #700303;
+    background-attachment: fixed;
+    animation: animacaoInicial 500ms;
+    cursor:default;
+}
+
+
+h2.titulo{
+    font-family: "PinkFizz";
+    font-size: 40pt;
+    margin-top:10px;
+    position: relative;
+
+    color:#d6cece;
+}
+
+div#contadorPomodoro{
+    width: 850px;
+    max-width: 900px;
+    height: 150px;
+    max-height: 250px;
+    border-radius:5px;
+    margin-top:15px;
+    background-color: #a10b0b;
+    padding:5px 5px 5px 5px;
+}
+
+img.tomate{
+    height: 75px;
+    margin-top:-120px;
+    margin-left:570px;
+    float:left;
+    
+}
+
+div.topo{
+    
+    align-items: baseline;
+    height: 100px;
+}
+p{
+    font-family:"PinkFizz";
+    color:#d6cece;
+    font-weight: bold;
+    line-height: 140px;
+    margin:auto;
+    font-size: 60pt;
+    cursor: default;  
+}
+
+input.btnIniciar{
+    border-radius:5px;
+    font-weight: bold;
+    font-family: "PinkFizz";
+    font-size: 20pt;
+    background-color:#a10b0b;
+    border:1px solid #a10b0b;
+    box-shadow: none;
+    margin-top:50px;
+    margin-left:-400px;
+
+}
+
+input.btnIniciar:hover{
+    transition:all 0.6s ease;
+    border:1px solid black;
+    color:white;
+    cursor:pointer;
+}
+
+input.btnPausar{
+    border-radius:5px;
+    font-weight: bold;
+    font-family: "PinkFizz";
+    font-size: 20pt;
+    background-color:#a10b0b;
+    border:1px solid #a10b0b;
+    box-shadow: none;
+    margin-top:50px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+input.btnPausar:hover{
+    transition:all 0.6s ease;
+    border:1px solid black;
+    color:white;
+    cursor:pointer;
+}
+
+div.buttons{
+    padding: 10px 0px 0px 398px;
+}
+
+input.btnTerminar{
+    border-radius:5px;
+    font-weight: bold;
+    font-family: "PinkFizz";
+    font-size: 20pt;
+    background-color:#a10b0b;
+    border:1px solid #a10b0b;
+    box-shadow: none;
+    margin-left:-15px;
+    margin-top:100px;
+    display: inline-block;
+}
+
+input.btnTerminar:hover{
+    transition:all 0.6s ease;
+    border:1px solid black;
+    color:white;
+    cursor:pointer;
+}
+
+div.inteiroP{
+    border-radius:10px 10px 0px 0px ;
+    background-color: #a10b0b;
+    padding:5px 5px 5px 5px;
+    width: 80px;
+    height: 15px;
+    margin-top: -10px;
+    margin-left: 280px;
+    position: absolute;
+    font-weight: bold;
+    font-family: "PinkFizz";
+}
+
+div.inteiroP:hover{
+    transition: all 0.6s ease;
+    background-color: #d6cece;
+}
+
+
+div.meioP{
+    border-radius:10px 10px 0px 0px ;
+    background-color: #a10b0b;
+    padding:5px 5px 5px 5px;
+    width: 80px;
+    height: 15px;
+    margin-top: -10px;
+    margin-left: 410px;
+    position: absolute;
+    font-weight: bold;
+    font-family: "PinkFizz";
+}
+
+div.meioP:hover{
+    transition: all 0.6s ease;
+    background-color: #d6cece;
+}
+
+div.velozP{
+    border-radius:10px 10px 0px 0px ;
+    background-color: #a10b0b;
+    padding:5px 5px 5px 5px;
+    width: 80px;
+    height: 15px;
+    margin-top: -10px;
+    margin-left: 540px;
+    position: absolute;
+    font-weight: bold;
+    font-family: "PinkFizz";
+}
+
+div.velozP:hover{
+    transition: all 0.6s ease;
+    background-color: #d6cece;
+}
